@@ -1,6 +1,6 @@
 app-id: io.github.congard.qnvsm
 runtime: org.kde.Platform
-runtime-version: '5.15-22.08'
+runtime-version: '6.8'
 sdk: org.kde.Sdk
 command: qnvsm
 finish-args:
@@ -18,5 +18,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/congard/nvidia-system-monitor-qt.git
-        tag: v1.5-flatpak-4
-        commit: adb6b308ff7e842cf58413441a6d4655282a556d
+        tag: v1.6
+        commit: 82a4702947fa4dcc5d511cae71ee096b80b3baa9
